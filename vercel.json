@@ -11,6 +11,11 @@
         "src": "/(.*)",
         "dest": "/",
         "methods": ["GET","PUT","POST", "PATCH", "DELETE", "OPTIONS"]
+       },
+       {
+        "src": "/user",
+        "dest": "/",
+        "methods": ["GET","PUT","POST", "PATCH", "DELETE", "OPTIONS"]
        }
     ]
 }
